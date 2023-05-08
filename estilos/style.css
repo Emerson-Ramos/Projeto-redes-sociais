@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* configuração global para zerar margin e padding */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -38,6 +39,14 @@ section#telefone{
     width: 311px;
    
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
 
 
